@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Cash Registier Project</title>
+</head>
+<body>
+    <main id="main">
+        <h1>Cash Register Project</h1>
+        <div id="change-due" class="change-due"></div>
+        <div class="input-div">
+            <label for="cash">Enter Cash from customer:</label>
+            <br>
+            <input id="cash" type="number">
+            <br>
+            <button id="purchase-btn" class="input-btn">Purchase</button>
+        </div>
+        <div class="container">
+            <div class="top-container">
+                <p id="price-screen" class="price-screen"></p>
+                <div class="connector"></div>
+            </div>
+            <div class="mid-container">
+                <div class="btn-div">
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                </div>
+                <div id="cash-in-drawer" class="cash-in-drawer-display">
+                </div>
+            </div>
+            <div class="bottom-container">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

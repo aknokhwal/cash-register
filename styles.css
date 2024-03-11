@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Register: #0d81c4;
+}
+
+body{
+    background-color: #222831;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    color: yellow;
+}
+
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 10px;
+}
+
+
+
+.input-div {
+    margin: 10px 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#cash{
+    padding: 10px;
+    font-size: 15px;
+    margin: -10px;
+    height: 30px;
+}
+
+.input-btn{
+    width: 100px;
+    font-size: larger;
+    background-color: #e7c30c;
+    font-weight: bold;
+    height: 30px;
+    border: 2px solid #827740;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top-container{
+    margin-left: -40px;
+}
+.price-screen{
+    border: 10px solid var(--Register);
+    padding: 3px 20px;
+    font-size: large;
+    width: 180px;
+    color: white;
+}
+.connector{
+    width: 40px;
+    height: 30px;
+    background-color: var(--Register);
+    margin-left: 20px;
+}
+.mid-container{
+    background-color: var(--Register);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 35px 35px 0 0;
+    padding-top: 20px;
+    height: 250px;
+    width: 325px;
+}
+.btn-div{
+    width: 25%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 80px;
+    margin: 10px
+}
+.btn{
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    border-radius: 3px;
+    border: none;
+    
+}
+.cash-in-drawer-display{
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 10px;
+    height: 220px;
+}
+.bottom-container{
+    width: 325px;
+    height: 70px;
+    margin: 18px;
+    background-color: var(--Register);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.circle{
+    background-color: black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px
+}
+
+.change-due{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: aliceblue;
+    padding: 20px;
+    margin-bottom: -20px;
+}
